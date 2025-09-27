@@ -1,0 +1,6 @@
+Question: What options can you add when writing to a file?
+Answer: You can use the ios:: operator to perform many different option to the file.
+Some examples are ios::out and ios::app.
+
+Question: What are the starting values here?
+Answer: The starting values are unassigned.

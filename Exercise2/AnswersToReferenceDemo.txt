@@ -1,0 +1,18 @@
+2. The file does not compile because there is no reference value passed into the new reference xr variable.
+Error: int& xr;
+
+3. onePlus() takes a pass by value int and increments it by 1. 
+But because there is no & symbol it takes a copy and doesn't change the main variable.
+
+4. refIncrement() does the same thing except it will change the main variable.
+Because there is a & symbol so it is pass by reference.
+
+5. pairs is a vector object that contains Pair objects.
+
+6. The function receives a reference to an existing string.
+const declares the string as "final", meaning it cannot be changed.
+
+7. value() returns the value associated with the name that is equal to the given string in pairs.
+The ++ operator increments the value associated with the current string by 1.
+It is legal because the value method returns a reference of the value in pairs.
+
